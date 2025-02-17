@@ -96,6 +96,6 @@ Pasos a seguir:
 ## Cómo ejecutar el proyecto
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/hola-spring-boot.git
+   git clone https://github.com/Josh27110/Spring.git
 
 
