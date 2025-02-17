@@ -40,7 +40,11 @@ Pasos a seguir:
 
         Si usamos un navegador y ponemos "http://localhost:8080" aparecera la siguiente página:
         ![image](https://github.com/user-attachments/assets/f0aa0a24-7e2a-462d-a026-199d13d914fa)
-    Para las credenciales de usuario debemos poner "user" y en contraseña la que sale en la terminal
+     <p> Para las credenciales de usuario debemos poner "user" y en contraseña la que sale en la terminal</p>
+     Pero como observamos nos envía una página enunciando el error "Whitelabel Error Page":
+   
+  ![image](https://github.com/user-attachments/assets/eb167ea6-1239-4986-bf0a-46a9c781e140)
+
 
   7.    Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
     o    Incluya un archivo README.md que explique brevemente cómo ejecutar su proyecto en un entorno local.
