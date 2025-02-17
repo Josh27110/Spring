@@ -31,9 +31,18 @@ Pasos a seguir:
 
   4.    Utilizando Spring Initializr, cree un proyecto básico de Spring Boot con las dependencias de Spring Web.
         Configure las propiedades necesarias en el archivo application.properties.
+    ![image](https://github.com/user-attachments/assets/686996cc-3a66-4f54-a0ee-a6042d5c08e3)
+
   5.    Agregue un controlador REST que devuelva un mensaje "¡Hola Spring!" a través de un endpoint básico.
     o    Pruebe el endpoint accediendo al navegador o utilizando herramientas como Postman.
-  6.    Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
+    Inicialmente para esta sección corrí el programa en terminal donde si se imprime el mensaje, generando tambien una contraseña que podemos poner en una página de login en el puerto 8080
+    ![image](https://github.com/user-attachments/assets/c6c69833-f8fe-4184-b1d3-60e07d87628d)
+
+        Si usamos un navegador y ponemos "http://localhost:8080" aparecera la siguiente página:
+        ![image](https://github.com/user-attachments/assets/f0aa0a24-7e2a-462d-a026-199d13d914fa)
+    Para las credenciales de usuario debemos poner "user" y en contraseña la que sale en la terminal
+
+  7.    Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
     o    Incluya un archivo README.md que explique brevemente cómo ejecutar su proyecto en un entorno local.
 
 
