@@ -20,6 +20,20 @@
     ![image](https://github.com/user-attachments/assets/4cc0fe19-e155-4413-a955-821c3371e41b)
 
 
+Pasos a seguir:
+  1.    Descargue, instale y configure las herramientas mencionadas.
+  2.    Asegúrese de que estén funcionando correctamente.
+    <p>Ejemplos:</p>
+      <p>o    Para el JDK, ejecute el comando java -version para validar su instalación.</p>
+      ![image](https://github.com/user-attachments/assets/c1559613-7f05-4899-b1f8-53804712eba1)
+       <p>o    Para Maven, ejecute mvn -version y asegúrese de que las variables de entorno estén configuradas.</p>
+       ![image](https://github.com/user-attachments/assets/2cb42430-4dd3-4866-a653-4e9a481fdf1c)
 
+  4.    Utilizando Spring Initializr, cree un proyecto básico de Spring Boot con las dependencias de Spring Web.
+        Configure las propiedades necesarias en el archivo application.properties.
+  5.    Agregue un controlador REST que devuelva un mensaje "¡Hola Spring!" a través de un endpoint básico.
+    o    Pruebe el endpoint accediendo al navegador o utilizando herramientas como Postman.
+  6.    Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
+    o    Incluya un archivo README.md que explique brevemente cómo ejecutar su proyecto en un entorno local.
 
 
