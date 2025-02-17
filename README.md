@@ -44,9 +44,58 @@ Pasos a seguir:
      Pero como observamos nos envía una página enunciando el error "Whitelabel Error Page":
    
   ![image](https://github.com/user-attachments/assets/eb167ea6-1239-4986-bf0a-46a9c781e140)
+   <p> Pero se nos solicita que hagamos un nuevo controlador REST que devuelva un mensaje, para esta sección al desconer en que consiste la API REST, solicite ayuda de la IA,
+    siendo este el siguient código:</p>
+      
+    import org.springframework.web.bind.annotation.GetMapping;
+    import org.springframework.web.bind.annotation.RestController;
+
+    @RestController
+    public class HolaController {
+
+    @GetMapping("/hola")
+    public String decirHola() {
+        return "¡Hola Spring!";
+      }
+    }
+  La implementación de la clase y la creación de una función es común, también la importación de otras librerías, lo nuevo son los @ResController y @GetMapping.
+  1. @RestController
+    Propósito: Indica que la clase es un controlador REST, es decir, un componente que maneja solicitudes HTTP y devuelve respuestas en formato JSON, XML u otro tipo de dato.
+
+      Funcionamiento:
+
+      Combina las anotaciones @Controller y @ResponseBody.
+
+      @Controller: Marca la clase como un controlador de Spring MVC.
+
+     @ResponseBody: Indica que el valor devuelto por los métodos del controlador se serializa directamente en el cuerpo de la respuesta HTTP (por ejemplo, en formato JSON).
+  
+  2. @GetMapping
+        Propósito: Mapea una solicitud HTTP GET a un método específico en el controlador.
+
+        Funcionamiento:
+
+       Define la ruta (endpoint) que el método manejará.
+
+        Cuando se realiza una solicitud GET a la ruta especificada, Spring Boot ejecuta el método anotado y devuelve su resultado como respuesta.
+     En este caso, cuando se accede a http://localhost:8080/hola con un método GET, el método decirHola() se ejecuta y devuelve el mensaje "¡Hola Spring!".
+
+      ![image](https://github.com/user-attachments/assets/f6e55ab6-dd27-44ca-b77d-d6efcf6da8f4)
 
 
-  7.    Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
+
+7.Cree un repositorio público en GitHub y suba el proyecto con una estructura adecuada.
     o    Incluya un archivo README.md que explique brevemente cómo ejecutar su proyecto en un entorno local.
+
+    Este es un proyecto Spring Boot simple que expone un endpoint REST para devolver un mensaje "¡Hola Spring!".
+
+## Requisitos
+- Java 17 o superior.
+- Maven o Gradle.
+
+## Cómo ejecutar el proyecto
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/hola-spring-boot.git
 
 
